@@ -125,6 +125,12 @@ class Search:
                 if 'shelfRenderer' in video_details:
                     continue
 
+                if 'reelShelfRenderer' in video_details:
+                    continue
+
+                if 'adSlotRenderer' in video_details:
+                    continue
+                
                 # Skip auto-generated "mix" playlist results
                 if 'radioRenderer' in video_details:
                     continue
