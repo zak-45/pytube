@@ -125,6 +125,9 @@ class Search:
                 if 'shelfRenderer' in video_details:
                     continue
 
+                if 'showingResultsForRenderer' in video_details:
+                    continue
+
                 if 'reelShelfRenderer' in video_details:
                     continue
 
